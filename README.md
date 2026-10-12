@@ -77,3 +77,11 @@ Screenshots of the queries running are in the `screenshots/` folder.
 
 ## Tools
 SQL (SQLite, DB Browser for SQLite), Excel (Tables, PivotTable, INDEX/MATCH).
+
+## Background
+This began as the TMU / Hydro One Excel Mini Bootcamp case study (Excel Tables, calculated columns, lookup, PivotTable and chart). I extended it with a SQL (SQLite) analysis. Small differences between Excel and SQL totals (for example 74,274 vs 74,266 delay minutes) come from removing 17 duplicate rows in the SQL version.
+
+## How to run
+1. Install [DB Browser for SQLite](https://sqlitebrowser.org/) (free).
+2. Open `ttc.db`.
+3. Open the Execute SQL tab, paste a query from `ttc_queries.sql` and run it.
