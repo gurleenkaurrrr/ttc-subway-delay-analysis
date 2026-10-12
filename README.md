@@ -1,6 +1,6 @@
 # TTC Subway Delay Analysis (2024)
 
-Analysis of 26,450 TTC subway delay incidents from the City of Toronto Open Data portal, using SQL (SQLite) and Excel, with a Power BI dashboard.
+Analysis of 26,450 TTC subway delay incidents from the City of Toronto Open Data portal, using SQL (SQLite) and Excel.
 
 **Question:** Where, when and why do subway delay minutes concentrate?
 
@@ -76,4 +76,4 @@ Screenshots of the queries running are in the `screenshots/` folder.
 - No ridership or train-hours denominator, so rates are not normalized.
 
 ## Tools
-SQL (SQLite, DB Browser for SQLite), Excel (Tables, PivotTable, INDEX/MATCH), Power BI.
+SQL (SQLite, DB Browser for SQLite), Excel (Tables, PivotTable, INDEX/MATCH).
